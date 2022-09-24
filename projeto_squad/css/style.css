@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body {
+    background-image: url(../img/gym.png);
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.header {
+    background-color: rgba(220, 220, 220, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    flex-flow: row wrap;
+}
+
+.logo {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 50.7px;
+    font-weight: 500;
+    flex-grow: 1;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainav {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: black;
+    flex-grow: 7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Michroma', sans-serif;
+    border-radius: 10px;
+
+}
+
+.nav a:hover {
+    color: rgb(176, 236, 255);
+    transition: 0.7s;
+}
+
+.logo a:hover {
+    color: aqua;
+    transition: 0.7s;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gridtop {
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.gridtop h2 {
+    font-size: 35px;
+}
+
+.gridcontent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 3%;
+}
+
+.crossfit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/crossfit.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.crossfit:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.crossfit p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.fitdance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fitdance.png);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.fitdance:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.fitdance p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.hidroginastica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/hidroginastica.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.hidroginastica:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.hidroginastica p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.hiit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/hiit.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.hiit:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.hiit p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.musculacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/musculacao.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.musculacao:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.musculacao p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.natacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/natacao.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.natacao:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.natacao p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.pilates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/pilates.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.pilates:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.pilates p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.powerjump {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/powerjump.png);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.powerjump:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.powerjump p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.spinning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/spinning.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.spinning:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.spinning p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/step.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.step:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.step p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.yoga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/yoga.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.yoga:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.yoga p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.zumba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/zumba.png);
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    min-width: 300px;
+    min-height: 250px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.zumba:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.zumba p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
